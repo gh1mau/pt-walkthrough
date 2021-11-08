@@ -3,7 +3,7 @@
 **1. Port Scan**
 
 ```bash
- sudo nmap -sS -sV -sC --top-ports 100 ip_address -oX ip_address
+ sudo nmap -sS -sV -sC --top-ports 100 ip_address -oA ip_address
  ```
  
  **2. Web Directory Brute Force**
