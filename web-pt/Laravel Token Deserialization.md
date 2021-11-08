@@ -3,7 +3,7 @@
 **1. Port Scan**
 
 ```bash
- sudo nmap -sS -sV -sC --top-ports 100 ip_address -oX ip_address
+ sudo nmap -sS -sV -sC --top-ports 100 ip_address -oA ip_address
  ```
  
  **2. Web Directory Brute Force**
@@ -12,13 +12,13 @@
  dirsearch -u http://ip_address
  ```
  
-** 3. Search posible Laravel 5.x exploit**
+**3. Search posible Laravel 5.x exploit**
  
  ```bash
  searchsploit laravel
  ```
  
-** 4. Exploit**
+**4. Exploit**
  
  ```bash
 git clone https://github.com/aljavier/exploit_laravel_cve-2018-15133
